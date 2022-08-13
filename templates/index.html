@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartik Joshi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.min.css"
+        integrity="sha512-Cdvnk1SFWqcb3An6gMyqDRH40Js8qmsWcSK10I2gSifCe2LilaPMsHd6DldEvQ3uIlCb1qdRUrNeAFFleOu4xQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='assets/images/favicon.ico') }}" type="image/x-icon">
+</head>
+
+<body class="dark">
+    <section class="loading">
+        <span>
+            Welcome to My Website
+        </span>
+        <span>&nbsp;</span>
+    </section>
+
+    <section class="nav-section">
+        <nav class="nav-bar">
+            <ul class="navbar-list">
+                <li>
+                    <a href="#home" class="navbar-item">
+                        <div class="navbar-item-icon">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                        <span class="navbar-item-label">
+                            Home
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#skills" class="navbar-item">
+                        <div class="navbar-item-icon">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <span class="navbar-item-label">
+                            Skills
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about" class="navbar-item">
+                        <div class="navbar-item-icon">
+                            <i class="fa-solid fa-info"></i>
+                        </div>
+                        <span class="navbar-item-label">
+                            About
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects" class="navbar-item">
+                        <div class="navbar-item-icon">
+                            <i class="fa-solid fa-bars-progress"></i>
+                        </div>
+                        <span class="navbar-item-label">
+                            Projects
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" class="navbar-item">
+                        <div class="navbar-item-icon">
+                            <i class="fa-solid fa-message"></i>
+                        </div>
+                        <span class="navbar-item-label">
+                            Contact us
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="buttons">
+            <div class="collapse-button">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="theme-button">
+				<span>Choose Theme</span>
+                <i class="fa-solid fa-sun"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="rest-body">
+        <section class="bg-animations">
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+        </section>
+
+        <section id="home" class="head">
+            <div class="head-img">
+                <img src="{{ url_for('static', filename='assets/images/head-img.png') }}" alt="img">
+            </div>
+            <div class="head-written">
+                <p>Hello I'm</p>
+                <h1>Kartik Joshi</h1>
+                <h4>Full Stack Web Developer</h4>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <p class="skill-sub" align="center">
+                I am learning many
+            </p>
+            <h2 class="skill-heading">
+                Skills
+            </h2>
+            <div class="skill-items">
+                <div class="skill">
+                    <h4>Web Development</h4>
+                    <ul class="skill-list">
+                        <li class="skill-item">
+                            <i class="fa-brands fa-html5"></i>
+                            <span>HTML</span>
+                        </li>
+                        <li class="skill-item">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </li>
+                        <li class="skill-item">
+                            <i class="fa-brands fa-js-square"></i>
+                            <span>Javascript</span>
+                        </li>
+                        <li class="skill-item">
+                            <i class="fa-brands fa-bootstrap"></i>
+                            <span>BootStrap</span>
+                        </li>
+                        <li class="skill-item">
+                            <i class="fa-brands fa-node-js"></i>
+                            <span>NodeJS</span>
+                        </li>
+                        <li class="skill-item">
+                            <i class="fa-brands fa-react"></i>
+                            <span>ReactJS</span>
+                        </li>
+                        <li class="skill-item">
+                            <i class="fa-brands fa-python"></i>
+                            <span>Flask</span>
+                        </li>
+                        <li class="skill-item">
+                            <i class="icon-mongodb"></i>
+                            <span>MongoDB</span>
+                        </li>
+                        <li class="skill-item">
+                            <i class="icon-mysql"></i>
+                            <span>MySQl</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skill">
+                    <h4>Basic Programming</h4>
+                    <ul class="skill-list">
+                        <li class="skill-item">
+                            <i class="fa-brands fa-c"></i>
+                            <span>C lang.</span>
+                        </li>
+                        <li class="skill-item">
+                            <i class="icon-cplusplus"></i>
+                            <span>C++ lang.</span>
+                        </li>
+                        <li class="skill-item">
+                            <i class="fa-brands fa-python"></i>
+                            <span>Python</span>
+                        </li>
+                        <li class="skill-item">
+                            <i class="fa-brands fa-java"></i>
+                            <span>Java Beginner</span>
+                        </li>
+                        <li class="skill-item">
+                            <i class="fa-solid fa-sitemap"></i>
+                            <span>Data Structures</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h1 class="about-heading">
+                About Me
+            </h1>
+            <div class="about-written">
+                <div class="about-icons">
+                    <i class="fa-solid fa-globe"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-brands fa-node"></i>
+                </div>
+                <p>
+                    Currrently pursuing a B.Tech. degree from Indian Institute of Information Technology, Sonepat. I am
+                    a passionate learner and have a keen interest towards learning new and latest technologies. I am
+                    full stack web developer and primarily work with NodeJS as backend but also have a basic
+                    understanding of Flask-Python. Apart from this, I have knowledge of other languages like C, C++, basic Java, Javascript, Python, etc.
+                </p>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h1 class="project-heading">
+                My Projects
+            </h1>
+            <div class="project-list">
+                {% for project in project_list %}
+                    <a target="_blank" href="{{ project['link'] }}" class="project">
+                        <div class="front">
+                            <h3>{{ project['title'] }}</h3>
+                        </div>
+                        <div class="back">
+                            <div>{{ html.unescape(project['description']) | safe }}</div>
+                        </div>
+                    </a>
+                {% endfor %}
+            </div>
+        </section>
+
+        <div id='contact' class='contact'>
+            <div class="contact-title">
+                <small>Get in Touch</small>
+                <big>Contact Me</big>
+            </div>
+
+            <div class="contact-form-options">
+                <div class="contact-options">
+                    <div class="option">
+                        <i class="fa fa-mail-bulk"></i>
+                        <big>Email</big>
+                        <small>kartikjoshi267@gmail.com</small>
+                        <a href="mailto:kartikjoshi267@gmail.com" target="_blank" rel='noreferrer'>Send a message</a>
+                    </div>
+                    <div class="option">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <big>Whatsapp</big>
+                        <small>+91 9696483510</small>
+                        <a href="https://wa.me/9696483510" target="_blank" rel='noreferrer'>Send a message</a>
+                    </div>
+                </div>
+
+                <div class="form">
+                    <form id='form' action="/" method="post" encType='multipart/form-data' name="EmailForm">
+                        <input type="text" name="name" id="name" placeholder='Enter your name' required />
+                        <input type="email" name="email" id="email" placeholder='Enter your email' required />
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder='Enter your message' required></textarea>
+                        <button class='btn btn-primary' type="submit">Send a message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+</body>
+
+</html>
